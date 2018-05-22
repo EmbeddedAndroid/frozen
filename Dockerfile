@@ -37,4 +37,4 @@ VOLUME ["/root/.frozen"]
 
 EXPOSE 9905 9904
 
-CMD /ips/src/frozend && tail -f /root/.frozen/debug.log
+CMD /frozen/src/frozend -printtoconsole
